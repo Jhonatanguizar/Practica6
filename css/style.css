@@ -1,0 +1,35 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    font-family: 'segoe UI' 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    height: 60px;
+}
+
+ul li a{
+    height: 60px;
+    background-color: blueviolet;
+    display: block;
+    border-left: 10px solid purple;
+    border-right: 5px solid blue;
+    padding-left: 15px ;
+    text-decoration: none;
+    color: plum;
+}
+ul li a:hover{
+margin-left: 10px;
+color: bisque;
+background-color: black;
+box-shadow: 10px 10px 20px #000;
+transform: rotate(4deg);
+-moz-transform: rotate(4deg);
+-webkit-transform: rotate(4deg);
+}
+td{
+    vertical-align: top;
+}
